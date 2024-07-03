@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="cssgaleria.css">
+    <link rel="stylesheet" href="script.js">
+</head>
+<body>
+
+    <header>
+        <img src="transparente.png" alt="" class="img">
+        <nav>
+            <ul>
+                <li><a href="index2.html">Inicio</a></li>
+              
+                <li><a href="index3.html">Galeria</a></li>
+               
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="ful-img" id="fulImgBox">
+        <img src="imgs/1.jpg" id="fulImg" alt="">
+        <span onclick="closeImg()">X</span>
+    </div>
+
+    <h1 style="background-color: black;"><span>Image Gallery</span></h1>
+
+    <div class="img-gallery">
+        <img src="agujero negro.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="qasar.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="Estrella de neutrones.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="1.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="2.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="3.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="4.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="5.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="6.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="7.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="8.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="9.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="10.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="11.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="12.jpg" onclick="openFulImg(this.src)" alt="">
+    </div>
+
+
+   
+    <script src="script.js"></script>
+</body>
+</html>
